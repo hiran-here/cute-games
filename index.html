@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Soft Space 🌙</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<h1>🌙 Soft Space</h1>
+
+<!-- Theme Toggle -->
+<div class="controls">
+  <button onclick="setTheme('blue')">🌊 Blue</button>
+  <button onclick="setTheme('black')">🌑 Black</button>
+  <button onclick="setTheme('white')">🤍 White</button>
+</div>
+
+<!-- Avatar -->
+<div id="avatar" onclick="changeAvatar()">🙂</div>
+
+<!-- Affirmations -->
+<div id="affirmation"></div>
+
+<!-- Bubble Game -->
+<h2>🫧 Bubble Pop</h2>
+<div id="bubble-area"></div>
+<p>Score: <span id="bubbleScore">0</span></p>
+<button onclick="createBubble()">Add Bubble</button>
+
+<!-- Catch Star Game -->
+<h2>⭐ Catch the Star</h2>
+<div id="star-game">
+  <div id="player">🐻</div>
+</div>
+<p>Score: <span id="starScore">0</span></p>
+
+<!-- Memory Game -->
+<h2>🧠 Memory Game</h2>
+<div id="memory-game"></div>
+
+<!-- Music -->
+<button onclick="toggleMusic()">🎵 Music</button>
+
+
+<script src="script.js"></script>
+</body>
+</html>
